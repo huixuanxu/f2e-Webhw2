@@ -1,0 +1,253 @@
+html{
+  background-color: #edf2c5;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: Arial;
+  
+}
+
+.bg{
+  max-width: 940px;
+  height: 880px;
+  padding: 36px 160px 35px 160px;
+  background-color: #edf2c5;
+}
+
+.header{
+  width: 940px;
+  height: 62px;
+
+  display:flex;
+  justify-content: flex-start;
+}
+
+.logo{
+  width: 271px;
+  height: 62px;
+  margin-right: 459px;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+}
+
+.btn_facebook, .btn_instagram{
+  width: 25px;
+  height: 25px;
+  margin: 12px 0px 13px 10px;
+}
+
+.VerticalLine{
+  /*width: 1px;*/
+  border-left-style:solid;
+  border-width: 1px;
+  border-color: #778a50;
+  height: 25px;
+  margin: 12px 0px 13px 10px;
+  /*background-color: #778a50;*/
+}
+
+.btn_LOGIN_box{
+  width: 60px;
+  height: 25px;
+  margin: 12px 0px 13px 10px;
+  display: flex;
+  border: solid 1PX #778a50;
+  border-radius: 5px;
+}
+
+.btn_JOIN_box{
+  width: 49px;
+  height: 25px;
+  margin: 12px 0px 13px 10px;
+  display: flex;
+  border: solid 1px #778a50;
+  border-radius: 5px;
+}
+
+.LOGIN{
+  width: 46px;
+  height: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  margin: 5px 7px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  align-items: center;
+}
+
+.JOIN{
+  width: 35px;
+  height: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  margin: 5px 6px 5px 7px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  align-items: center;
+}
+
+.list_top{
+  max-width: 940px;
+  height: 44px;
+  position: relative;
+  bottom: 15px;
+  border-radius: 3px;
+  background-color: #778a50;
+  display: block;
+  display: flex;
+
+}
+
+.list_item{
+  display: block;
+  font-size: 16px;
+  font-weight: 1000;
+  margin: 10px 30px 11px;
+  position: relative;
+  right: 35px;
+  color: #edf2c5;
+  justify-content: flex-start;
+
+}
+
+.img_main_pumpkin{
+  width: 940px;
+  height: 448px;
+  margin: 20px 0 30px;
+  object-fit: contain;
+}
+
+.body_box{
+  display: flex;
+  justify-content: start;
+}
+
+.body_box_vegetables, .body_box_contact{
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+}
+.body_box_contact{
+  margin-left: 52px;
+}
+
+.body_box_vegetables_text{
+  width: 98px;
+  height: 23px;
+}
+.body_box_contact_text{
+  width: 69px;
+  height: 23px;
+}
+
+.body_box_vegetables_text, .body_box_contact_text{
+  position: relative;
+  left: 30px;
+  top: 3px;
+
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+.body_box2{
+  display: flex;
+  justify-content: start;
+  margin: 15px 0px 35px;
+}
+
+.img_list, .contact_text{
+  width: 444px;
+  height: 140px;
+}
+
+.img_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_text{
+  margin-left: 52px;
+  background-color: #f7fbda;
+  /*padding: 15px;*/
+}
+
+.text_list1{
+
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.text_list2{
+
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.horizontalline{
+  width: 414px;
+  height: 1px;
+  /*margin: 15px 0;*/
+  background-color: #7d7d7d;
+}
+
+.text_list1, .text_list2, .horizontalline{
+  display: block;
+ margin: 15px;
+}
+
+.footer{
+
+  max-width: 1260px;
+  max-height: 60px;
+  margin: 0 auto;
+  padding: 23px 479px 23px 480px;
+  display:flex;
+  justify-self: center;
+  background-color: #778a50;
+ 
+}
+
+.footer p{
+  color:#edf2c5;
+  font-size: 1px;
+  font-family: Arial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
